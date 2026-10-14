@@ -16,9 +16,6 @@ const base: SVGProps<SVGSVGElement> = {
 export const ArrowRight = () => (
   <svg {...base}><path d="M5 12h14M13 6l6 6-6 6" /></svg>
 )
-export const ArrowLeft = () => (
-  <svg {...base}><path d="M19 12H5M11 6l-6 6 6 6" /></svg>
-)
 export const ArrowUpRight = () => (
   <svg {...base}><path d="M7 17 17 7M8 7h9v9" /></svg>
 )

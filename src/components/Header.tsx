@@ -12,6 +12,7 @@ const sections = [
 export function Header() {
   const { t, lang, setLang } = useLang()
   const [first, ...rest] = profile.name.split(' ')
+  const next = lang === 'th' ? 'en' : 'th'
 
   return (
     <header className="topbar">
@@ -27,10 +28,16 @@ export function Header() {
         ))}
       </nav>
 
-      <div className="lang" role="group" aria-label={t('langLabel')}>
-        <button type="button" aria-pressed={lang === 'en'} onClick={() => setLang('en')} lang="en">En</button>
-        <button type="button" aria-pressed={lang === 'th'} onClick={() => setLang('th')} lang="th">Th</button>
-      </div>
+      {/* One toggle: shows the language you'll switch to */}
+      <button
+        type="button"
+        className="lang-toggle"
+        onClick={() => setLang(next)}
+        aria-label={t('langSwitch')}
+        lang={next}
+      >
+        {next === 'en' ? 'EN' : 'TH'}
+      </button>
     </header>
   )
 }
