@@ -27,7 +27,7 @@ security-headers.json  ← security headers (ใช้ร่วมกันท�
 1. แก้ `profile.targetRole`, `tagline` และ `aboutIntro` ใน `src/data/profile.ts`
 2. แก้รายการ `fit` ให้เป็นคุณสมบัติจากประกาศงานใหม่ โดยผูก `proof` กับ id ของโปรเจกต์
 3. ใส่เฉพาะสิ่งที่อธิบายได้ตอนสัมภาษณ์เท่านั้น
-4. ใส่รูปโปรไฟล์: วางไฟล์ไว้ที่ `public/photo.jpg` แล้วตั้ง `profile.photo = '/photo.jpg'` 
+4. ใส่รูปโปรไฟล์: วางไฟล์ไว้ที่ `public/photo.webp` แล้วตั้ง `profile.photo = '/photo.webp'` 
 
 ข้อความใน `*...*` จะแสดงเป็นตัวเอียงเน้น (render ผ่าน React node ไม่ใช้ `dangerouslySetInnerHTML`)
 

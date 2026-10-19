@@ -27,7 +27,7 @@ export const ui = {
     en: 'Technologies and tools I have *used in real projects*',
   },
   strengthsLabel: { th: 'จุดแข็ง', en: 'Strengths' },
-  fitLabel: { th: 'ความเหมาะสมกับตำแหน่ง', en: 'Role fit' },
+  fitLabel: { th: 'ความเหมาะสมกับตำแหน่งงาน', en: 'Role fit' },
   fitTitle: { th: 'Fit', en: 'Fit' },
   levelStrong: { th: 'ใช้จริงในโปรเจกต์', en: 'Proven' },
   levelHandsOn: { th: 'มีประสบการณ์', en: 'Hands-on' },

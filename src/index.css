@@ -172,7 +172,7 @@ img { display: block; max-width: 100%; }
 .hero-row + .hero-row { margin-top: 18px; }
 .hero-l1, .hero-l2 { font-size: clamp(44px, 9.5vw, 116px); }
 .hero-l2 { margin-left: auto; }
-.hero-tagline { max-width: 300px; color: #bdbdbd; font-size: 15px; line-height: 1.5; }
+.hero-tagline { max-width: 400px; color: #bdbdbd; font-size: 15px; line-height: 1.5; }
 
 /* Mobile: keep "Full-stack Developer" together, then tagline, then the Projects button */
 @media (max-width: 760px) {

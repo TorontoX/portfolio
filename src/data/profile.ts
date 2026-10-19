@@ -62,16 +62,16 @@ export const profile = {
 
   resumePdf: '/Teetach-Chuenkamonrat-Resume.pdf',
   /** Optional portrait in /public (e.g. '/photo.jpg'). Falls back to initials art when empty. */
-  photo: '/photo.jpg' as string,
+  photo: '/photo.webp' as string,
 
   /** *text* renders as emphasis (see components/Rich.tsx) */
   tagline: {
-    th: 'เป้าหมายของผมคือ *เขียนโค้ดที่ดูแลง่าย สะอาด* และ *นำ AI มาช่วยงานจริง* ให้ทีมทำงานได้เร็วขึ้น',
-    en: 'My goal is to *write maintainable, clean code* and *put AI to practical use* so teams can move faster.',
+    th: 'มุ่งหวังตำแหน่งงานด้าน *การพัฒนาซอฟต์แวร์และ IT Support* ที่ได้นำทักษะทางเทคนิคมาใช้ มีส่วนร่วมทั้งงาน *พัฒนาระบบและดูแลระบบ* และเติบโตต่อเนื่องในด้าน *Automation, Cloud* และแนวปฏิบัติด้าน IT สมัยใหม่',
+    en: 'To obtain a position in the field of *software development and IT support* where I can apply my technical skills, contribute to both *development and system operations*, and continuously grow in *automation, cloud technologies*, and modern IT practices.',
   } satisfies Localized,
   aboutIntro: {
-    th: 'สวัสดีครับ ผม Teetach *นักพัฒนา Full-stack* ที่ชอบเชื่อม *LLM, OCR และ LINE* เข้ากับระบบที่ใช้งานได้จริง',
-    en: "Hello! I'm Teetach, a *full-stack developer* who enjoys wiring *LLMs, OCR and LINE* into systems people actually use.",
+    th: 'สวัสดีครับ ผมธีธัช *นักพัฒนา Full-stack* ที่มุ่งมั่นสร้างซอฟต์แวร์ที่ใช้งานได้จริง โดยนำ *เทคโนโลยี AI* มาผสานเข้ากับแอปพลิเคชันในการใช้งานจริง มีประสบการณ์ด้าน *LLM API, OCR, การพัฒนาเว็บ และการจัดการฐานข้อมูล*',
+    en: "Hello I'm Teetach, a *Full-stack Developer* passionate about building practical software solutions by integrating *AI technologies* into real-world applications. I have experience working with *LLM APIs, OCR, web development, and database management*.",
   } satisfies Localized,
 } as const
 
