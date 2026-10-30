@@ -56,7 +56,7 @@ export const profile = {
   contact: {
     emailUser: 'ch.teetach',
     emailDomain: 'gmail.com',
-    phoneParts: ['081', '621', '7947'],
+    phoneParts: ['065', '156', '6369'],
     location: { th: 'ชลบุรี', en: 'Chonburi, Thailand' } satisfies Localized,
   },
 
